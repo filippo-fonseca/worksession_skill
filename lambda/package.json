@@ -1,0 +1,17 @@
+{
+  "name": "work-session",
+  "version": "1.0.0",
+  "description": "A powerful tool for remaining focused while working/studying.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filippo Fonseca",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.27.0",
+    "axios": "^0.19.2",
+    "moment": "^2.24.0"
+  }
+}

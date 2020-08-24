@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A powerful tool for getting on a focused work/study session.",
+          "examplePhrases": [
+            "Alexa, start work sesh"
+          ],
+          "keywords": [
+            "work",
+            "focus",
+            "timer",
+            "worksesh",
+            "worksession",
+            "pomodoro",
+            "working"
+          ],
+          "name": "Work Session",
+          "description": "\u0027Work Session\u0027 is a powerful tool for implementing a focused work/study routine into your day-to-day workflow. This skill builds consistency, improves focus, and allows you to get more done with segmented \u0027work sessions\u0027, or as we like to call them, \u0027work sesh\u0027.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Initial release - 1.0.0",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "In order to call the \u0027Work Session\u0027 skill, simply say \u0027Alexa, start work sesh.\" Then, Alexa will ask you for permission to set up a 50-minute timer. After permission has been given, the timer will commence.",
+      "category": "SELF_IMPROVEMENT",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:865328109619:function:94770c22-6ecc-4fcb-a027-4f02e4400699:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:865328109619:function:94770c22-6ecc-4fcb-a027-4f02e4400699:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:865328109619:function:94770c22-6ecc-4fcb-a027-4f02e4400699:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:865328109619:function:94770c22-6ecc-4fcb-a027-4f02e4400699:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::alerts:timers:skill:readwrite"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
